@@ -35,4 +35,4 @@ new posts.
 All copy is inline in the HTML files. Update headlines, sections, and links
 directly. The design system tokens live at the top of `css/styles.css`.
 
-© 2025 BSK Observer · A publication of BSK TV Network.
+© 2026 BSK Observer · A Publication of BSK TV Network.
