@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volunteer | BSK Observer</title>
+<meta name="description" content="Apply to volunteer with BSK Observer for a specific period of time and support reporting, production, research, and community engagement.">
+<link rel="icon" href="assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head><body data-page="volunteer.html">
+<div id="site-header"></div>
+<section class="page-hero"><div class="container"><h1>Volunteer With BSK Observer</h1><p>Join our newsroom and help strengthen independent journalism for Sierra Leone and the diaspora.</p></div></section>
+<section><div class="container" style="max-width:920px">
+  <p style="text-align:center;color:var(--muted);max-width:760px;margin:0 auto 2em">We welcome volunteers for reporting, research, production, audience engagement, administration, and community outreach. Please complete the form below with as much detail as you can so we can match you to the right opportunity.</p>
+  <form class="form reveal">
+    <div class="row">
+      <div><label for="full-name">Full Name</label><input id="full-name" name="full-name" required></div>
+      <div><label for="email">Email Address</label><input id="email" name="email" type="email" required></div>
+    </div>
+    <div class="row">
+      <div><label for="phone">Phone Number</label><input id="phone" name="phone" required></div>
+      <div><label for="location">Location</label><input id="location" name="location" placeholder="Freetown, Bo, Makeni, etc." required></div>
+    </div>
+    <label for="period">Volunteer Period</label>
+    <input id="period" name="period" placeholder="Example: 3 months, 6 weeks, summer internship" required>
+    <label for="interest">Area of Interest</label>
+    <select id="interest" name="interest" required>
+      <option value="">Select one</option>
+      <option>Reporting & Journalism</option>
+      <option>Research & Fact-Checking</option>
+      <option>Video Production</option>
+      <option>Design & Social Media</option>
+      <option>Administration & Operations</option>
+      <option>Community Outreach</option>
+    </select>
+    <label for="experience">Relevant Experience or Skills</label>
+    <textarea id="experience" name="experience" required placeholder="Tell us about your background, skills, languages, or previous volunteer work."></textarea>
+    <label for="availability">Availability</label>
+    <textarea id="availability" name="availability" required placeholder="Share your available days and hours each week."></textarea>
+    <label><input type="checkbox" required> I understand that this is a volunteer commitment and that BSK Observer may contact me regarding my application.</label>
+    <div style="margin-top:1em"><button class="btn" type="submit">Submit volunteer application</button></div>
+    <div class="form-status" role="status" aria-live="polite"></div>
+  </form>
+</div></section>
+<div id="site-footer"></div>
+<script src="js/layout.js"></script><script src="js/main.js"></script>
+</body></html>

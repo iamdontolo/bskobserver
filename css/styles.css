@@ -54,7 +54,12 @@ p{margin:0 0 1em}
 .utility a{color:#cfd8ea}
 .utility a:hover{color:var(--gold-2)}
 .utility .date{font-family:var(--serif);letter-spacing:.05em}
-.socials{display:flex;gap:.9em}
+.socials{display:flex;gap:.65em;align-items:center}
+.socials a{display:inline-flex;align-items:center;justify-content:center;width:1.95rem;height:1.95rem;border-radius:50%;background:rgba(255,255,255,.12);color:#fff}
+.socials a:hover{background:rgba(232,195,116,.2);color:var(--gold-2)}
+.socials svg{width:.95rem;height:.95rem;fill:currentColor;display:block}
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.icon-btn{padding:.75em .9em}
 
 /* Masthead */
 .masthead{background:#fff;border-bottom:1px solid var(--line);padding:1.2em 0}
@@ -62,7 +67,7 @@ p{margin:0 0 1em}
 .brand{display:flex;align-items:center;gap:.7em}
 .brand img{height:56px;width:auto}
 .brand-text{font-family:var(--serif);font-weight:800;font-size:1.9rem;color:var(--navy);letter-spacing:.02em}
-.brand-tag{font-family:var(--serif);font-style:italic;color:var(--muted);font-size:.9rem;border-left:2px solid var(--gold);padding-left:.8em;margin-left:.4em}
+.brand-tag{font-family:var(--arial);font-style:bold;color:var(--);font-size:.9rem;border-left:2px solid var(--gold);padding-left:.8em;margin-left:.4em}
 .masthead-cta{display:flex;gap:.6em}
 @media(max-width:768px){.brand img{height:44px}.brand-text{font-size:1.4rem}.brand-tag{display:none}.masthead-cta{display:none}}
 
