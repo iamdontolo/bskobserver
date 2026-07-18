@@ -1,14 +1,14 @@
-# BSK Observer — Static Website
+# BSK Observer — Online Newspaper Website
 
 A responsive, animated, multi-page newspaper website for **BSK Observer**, Sierra Leone's independent digital newspaper.
 
 ## Run locally
 
-Open `index.html` in your browser:
+Click the preview link below or paste in your browser:
 
-```
+
 https://iamdontolo.github.io/bskobserver/index.html
-```
+
 
 
 ## Structure
