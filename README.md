@@ -4,13 +4,12 @@ A responsive, animated, multi-page newspaper website for **BSK Observer**, Sierr
 
 ## Run locally
 
-Open `index.html` in your browser, or serve the folder with any static server:
+Open `index.html` in your browser:
 
 ```
-python3 -m http.server 8000
+https://iamdontolo.github.io/bskobserver/index.html
 ```
 
-Then visit http://localhost:8000
 
 ## Structure
 
