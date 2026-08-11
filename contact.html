@@ -23,14 +23,14 @@
 <section style="background:#fff;border-top:1px solid var(--line)">
   <div class="container" style="max-width:760px">
     <h2 style="text-align:center">Send Us a Message</h2>
-    <form class="form reveal">
+    <form class="form reveal" action="https://formspree.io/f/xdenglao" method="POST">
       <div class="row">
-        <div><label for="cname">Full name</label><input id="cname" required></div>
-        <div><label for="cmail">Email</label><input id="cmail" type="email" required></div>
+        <div><label for="cname">Full name</label><input id="cname" name="name" required></div>
+        <div><label for="cmail">Email</label><input id="cmail" name="email" type="email" required></div>
       </div>
       <label for="csubj">Subject</label>
-      <select id="csubj"><option>General enquiry</option><option>Story tip</option><option>Correction request</option><option>Letter to the editor</option><option>Advertising / partnership</option><option>Careers</option></select>
-      <label for="cmsg">Message</label><textarea id="cmsg" required placeholder="Tell us how we can help…"></textarea>
+      <select id="csubj" name="subject"><option>General enquiry</option><option>Story tip</option><option>Correction request</option><option>Letter to the editor</option><option>Advertising / partnership</option><option>Careers</option></select>
+      <label for="cmsg">Message</label><textarea id="cmsg" name="message" required placeholder="Tell us how we can help…"></textarea>
       <div style="margin-top:1.2em"><button class="btn" type="submit">Send message</button></div>
       <div class="form-status" role="status" aria-live="polite"></div>
     </form>
