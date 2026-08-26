@@ -189,23 +189,83 @@ window.BSK_STORIES = [
   },
 
   {
-    id: 12,
-    cat: "Job Vacancy",
-    tone: "red",
-    img: "assets/vacancy01.jpg",
+  id: 12,
 
-    title: "Stefani and Amos Memorial Secondary School, Mabesseneh–Lunsar, Announces Two Academic Leadership Vacancies",
+  cat: "Job Vacancy",
 
-    excerpt: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the leadership positions of the Principal and Vice Principal.",
+  tone: "red",
 
-    body: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the following leadership positions: 1. PRINCIPAL 2. VICE PRINCIPALS. These positions are critical to providing effective school leadership, promoting academic excellence, strengthening discipline, supporting teachers and students, and ensuring the delivery of quality education. REQUIREMENTS A. PRINCIPAL. Applicants for the position of Principal must: Be a Sierra Leonean, or a non-Sierra Leonean with a valid work permit and willingness to participate in the required recruitment process. Possess a Degree in Education, or a Degree together with a Diploma in Education. For JSS, the minimum qualification is HTC – Secondary. Have at least five (5) years of post-graduation teaching experience, of which at least four (4) years must have been spent serving as a Senior Teacher, Head of Department, or both, in a Government or Government-Assisted secondary school. Demonstrate foundational Information Technology (IT) skills, including the ability to: Use a computer, manage files, operate basic programmes, and access the internet. Use email and maintain an active email address. Type and prepare documents using digital word-processing applications. Create and use spreadsheets, including basic formulas such as addition and subtraction.",
+  img: "assets/vacancy01.jpg",
 
-    author: "Ibrahim Thoronka",
-    time: "August 2026",
-    read: 0
 
-    // Optional PDF download link
-    pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
-  }
+  title: "Stefani and Amos Memorial Secondary School, Mabesseneh–Lunsar, Announces Two Academic Leadership Vacancies",
+
+
+  excerpt: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the leadership positions of the Principal and Vice Principal.",
+
+
+  body: `
+
+STEFANI AND AMOS MEMORIAL SECONDARY SCHOOL
+MABESSENEH – LUNSAR
+
+
+ANNOUNCEMENT OF VACANCIES
+
+Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the following leadership positions:
+
+
+1. PRINCIPAL
+
+2. VICE PRINCIPAL
+
+
+These positions are critical to providing effective school leadership, promoting academic excellence, strengthening discipline, supporting teachers and students, and ensuring the delivery of quality education.
+
+
+REQUIREMENTS
+
+
+A. PRINCIPAL
+
+Applicants for the position of Principal must:
+
+• Be a Sierra Leonean, or a non-Sierra Leonean with a valid work permit and willingness to participate in the required recruitment process.
+
+• Possess a Degree in Education, or a Degree together with a Diploma in Education.
+
+• For JSS, the minimum qualification is HTC – Secondary.
+
+• Have at least five (5) years of post-graduation teaching experience.
+
+• At least four (4) years of the required experience must have been spent serving as a Senior Teacher, Head of Department, or both, in a Government or Government-Assisted secondary school.
+
+
+INFORMATION TECHNOLOGY REQUIREMENTS
+
+Applicants must demonstrate foundational Information Technology (IT) skills, including the ability to:
+
+• Use a computer and manage files.
+
+• Operate basic computer programmes and access the internet.
+
+• Use email and maintain an active email address.
+
+• Type and prepare documents using digital word-processing applications.
+
+• Create and use spreadsheets, including basic formulas such as addition and subtraction.
+
+
+`,
+
+
+  author: "Ibrahim Thoronka",
+
+  time: "August 2026",
+
+  read: 0,
+
+  pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
+}
 
 ];
