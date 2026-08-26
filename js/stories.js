@@ -189,92 +189,295 @@ window.BSK_STORIES = [
   },
 
   {
-    id: 12,
+  id: 12,
 
-    cat: "Job Vacancy",
+  cat: "Job Vacancy",
 
-    tone: "red",
+  tone: "red",
 
-    img: "assets/vacancy01.jpg",
-
-
-    title: "Stefani and Amos Memorial Secondary School, Mabesseneh–Lunsar, Announces Two Academic Leadership Vacancies",
+  img: "assets/vacancy01.jpg",
 
 
-    excerpt: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the leadership positions of the Principal and Vice Principal.",
+  title: "Stefani and Amos Memorial Secondary School Announces Academic Leadership Vacancies",
 
 
-    body: `
-STEFANI AND AMOS MEMORIAL SECONDARY SCHOOL
-MABESSENEH – LUNSAR
+  excerpt: "Stefani and Amos Memorial Secondary School, Mabesseneh–Lunsar, is inviting applications from qualified and experienced education professionals for the positions of Principal and Vice Principal.",
 
 
-ANNOUNCEMENT OF VACANCIES
+  body: `
+    <div class="vacancy-post">
+
+      <!-- HEADER -->
+      <div class="vacancy-header">
+
+        <div class="vacancy-school">
+          STEFANI AND AMOS MEMORIAL SECONDARY SCHOOL
+        </div>
+
+        <div class="vacancy-location">
+          Mabesseneh – Lunsar, Sierra Leone
+        </div>
+
+        <div class="vacancy-badge">
+          VACANCY ANNOUNCEMENT
+        </div>
+
+      </div>
 
 
-Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the following leadership positions:
+      <!-- INTRODUCTION -->
+      <section class="vacancy-section">
+
+        <p>
+          Stefani and Amos Memorial Secondary School invites applications
+          from qualified, experienced, visionary, and dedicated education
+          professionals to fill critical leadership positions.
+        </p>
+
+        <p>
+          These roles are essential to providing effective school leadership,
+          promoting academic excellence, strengthening discipline, supporting
+          teachers and students, and ensuring quality education delivery.
+        </p>
+
+      </section>
 
 
-1. PRINCIPAL
+      <!-- POSITIONS -->
+      <section class="vacancy-section">
 
-2. VICE PRINCIPAL
+        <h2>AVAILABLE POSITIONS</h2>
 
+        <div class="vacancy-positions">
 
-These positions are critical to providing effective school leadership, promoting academic excellence, strengthening discipline, supporting teachers and students, and ensuring the delivery of quality education.
+          <div class="position-card">
 
+            <span class="position-number">01</span>
 
-REQUIREMENTS
+            <h3>PRINCIPAL</h3>
 
+            <p>
+              Responsible for providing effective academic and administrative
+              leadership and supporting the overall growth and development
+              of the school.
+            </p>
 
-A. PRINCIPAL
-
-
-Applicants for the position of Principal must:
-
-
-• Be a Sierra Leonean, or a non-Sierra Leonean with a valid work permit and willingness to participate in the required recruitment process.
-
-
-• Possess a Degree in Education, or a Degree together with a Diploma in Education.
-
-
-• For JSS, the minimum qualification is HTC – Secondary.
+          </div>
 
 
-• Have at least five (5) years of post-graduation teaching experience.
+          <div class="position-card">
+
+            <span class="position-number">02</span>
+
+            <h3>VICE PRINCIPAL</h3>
+
+            <p>
+              Supporting school leadership, academic coordination,
+              discipline, staff management and student development.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
 
 
-• At least four (4) years of the required experience must have been spent serving as a Senior Teacher, Head of Department, or both, in a Government or Government-Assisted secondary school.
+      <!-- PRINCIPAL REQUIREMENTS -->
+      <section class="vacancy-section">
+
+        <h2>A. POSITION: PRINCIPAL</h2>
+
+        <div class="requirements-list">
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Be a Sierra Leonean, or a non-Sierra Leonean with a valid work permit.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Possess a Degree in Education, or a Degree together with a Diploma in Education.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            For JSS, the minimum qualification is HTC – Secondary.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Have at least five years of post-graduation teaching experience.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Demonstrate leadership experience as a Senior Teacher, Head of Department, or related academic leadership position.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Demonstrate basic Information Technology and digital communication skills.
+          </div>
+
+        </div>
+
+      </section>
 
 
-INFORMATION TECHNOLOGY REQUIREMENTS
+      <!-- VICE PRINCIPAL -->
+      <section class="vacancy-section">
+
+        <h2>B. POSITION: VICE PRINCIPAL</h2>
+
+        <div class="vacancy-info-card">
+
+          <p>
+            Applicants should possess relevant academic qualifications and
+            demonstrate strong leadership, communication, administration,
+            discipline management and educational development skills.
+          </p>
+
+          <p>
+            Relevant qualifications include HTC – Secondary, Degree in
+            Education, or other qualifications specified by the recruitment
+            requirements.
+          </p>
+
+        </div>
+
+      </section>
 
 
-Applicants must demonstrate foundational Information Technology (IT) skills, including the ability to:
+      <!-- IT SKILLS -->
+      <section class="vacancy-section">
+
+        <h2>INFORMATION TECHNOLOGY REQUIREMENTS</h2>
+
+        <div class="requirements-list">
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Basic computer operation and file management.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Internet access and email communication.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Digital word-processing for document preparation.
+          </div>
+
+          <div class="requirement-item">
+            <span>✓</span>
+            Basic spreadsheet knowledge and calculations.
+          </div>
+
+        </div>
+
+      </section>
 
 
-• Use a computer and manage files.
+      <!-- HOW TO APPLY -->
+      <section class="vacancy-section application-section">
+
+        <h2>HOW TO APPLY</h2>
+
+        <p>
+          Interested and qualified applicants should submit the following
+          documents:
+        </p>
+
+        <ol class="application-list">
+
+          <li>Completed Application Form available at the TSC District Office.</li>
+
+          <li>Curriculum Vitae (CV).</li>
+
+          <li>Copies of relevant academic diplomas and certificates.</li>
+
+          <li>One or two testimonials.</li>
+
+        </ol>
+
+      </section>
 
 
-• Operate basic computer programmes and access the internet.
+      <!-- DEADLINE -->
+      <div class="deadline-box">
+
+        <span>APPLICATION DEADLINE</span>
+
+        <strong>15th SEPTEMBER 2026</strong>
+
+      </div>
 
 
-• Use email and maintain an active email address.
+      <!-- CONTACT -->
+      <section class="contact-section">
+
+        <h2>FURTHER ENQUIRIES</h2>
+
+        <p>
+          <strong>Rev. Fr. Mario Zarantonello</strong>
+        </p>
+
+        <p>
+          Chairman, Board of Governors
+        </p>
+
+        <p>
+          Tel: +232 78 811443
+        </p>
+
+        <hr>
+
+        <p>
+          <strong>Stefani and Amos Memorial Secondary School</strong>
+        </p>
+
+        <p>
+          Mabesseneh – Lunsar, Sierra Leone
+        </p>
+
+        <p>
+          Email: info.stefaniandamossec@gmail.com
+        </p>
+
+        <p>
+          Contact: +232 78 811443
+        </p>
+
+      </section>
 
 
-• Type and prepare documents using digital word-processing applications.
+      <!-- PDF DOWNLOAD -->
+      <div class="vacancy-download">
+
+        <a
+          href="assets/Stefani_Amos_Vacancy_Announcement.pdf"
+          target="_blank"
+          class="vacancy-pdf-btn"
+        >
+          📄 Download Full Job Description PDF
+        </a>
+
+      </div>
+
+    </div>
+  `,
 
 
-• Create and use spreadsheets, including basic formulas such as addition and subtraction.
-`,
+  author: "Ibrahim Thoronka",
 
-    author: "Ibrahim Thoronka",
+  time: "August 2026",
 
-    time: "August 2026",
+  read: 0,
 
-    read: 0,
-
-    pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
-  }
+  pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
+}
 
 ];
