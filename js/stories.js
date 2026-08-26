@@ -189,28 +189,28 @@ window.BSK_STORIES = [
   },
 
   {
-  id: 12,
+    id: 12,
 
-  cat: "Job Vacancy",
+    cat: "Job Vacancy",
 
-  tone: "red",
+    tone: "red",
 
-  img: "assets/vacancy01.jpg",
-
-
-  title: "Stefani and Amos Memorial Secondary School, Mabesseneh–Lunsar, Announces Two Academic Leadership Vacancies",
+    img: "assets/vacancy01.jpg",
 
 
-  excerpt: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the leadership positions of the Principal and Vice Principal.",
+    title: "Stefani and Amos Memorial Secondary School, Mabesseneh–Lunsar, Announces Two Academic Leadership Vacancies",
 
 
-  body: `
+    excerpt: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the leadership positions of the Principal and Vice Principal.",
 
+
+    body: `
 STEFANI AND AMOS MEMORIAL SECONDARY SCHOOL
 MABESSENEH – LUNSAR
 
 
 ANNOUNCEMENT OF VACANCIES
+
 
 Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the following leadership positions:
 
@@ -228,44 +228,53 @@ REQUIREMENTS
 
 A. PRINCIPAL
 
+
 Applicants for the position of Principal must:
+
 
 • Be a Sierra Leonean, or a non-Sierra Leonean with a valid work permit and willingness to participate in the required recruitment process.
 
+
 • Possess a Degree in Education, or a Degree together with a Diploma in Education.
+
 
 • For JSS, the minimum qualification is HTC – Secondary.
 
+
 • Have at least five (5) years of post-graduation teaching experience.
+
 
 • At least four (4) years of the required experience must have been spent serving as a Senior Teacher, Head of Department, or both, in a Government or Government-Assisted secondary school.
 
 
 INFORMATION TECHNOLOGY REQUIREMENTS
 
+
 Applicants must demonstrate foundational Information Technology (IT) skills, including the ability to:
+
 
 • Use a computer and manage files.
 
+
 • Operate basic computer programmes and access the internet.
+
 
 • Use email and maintain an active email address.
 
+
 • Type and prepare documents using digital word-processing applications.
 
+
 • Create and use spreadsheets, including basic formulas such as addition and subtraction.
-
-
 `,
 
+    author: "Ibrahim Thoronka",
 
-  author: "Ibrahim Thoronka",
+    time: "August 2026",
 
-  time: "August 2026",
+    read: 0,
 
-  read: 0,
-
-  pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
-}
+    pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
+  }
 
 ];
