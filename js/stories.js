@@ -458,7 +458,7 @@ window.BSK_STORIES = [
       <div class="vacancy-download">
 
         <a
-          href="assets/Stefani_Amos_Vacancy_Announcement.pdf"
+          href="assets/vacancy01.pdf"
           target="_blank"
           class="vacancy-pdf-btn"
         >
