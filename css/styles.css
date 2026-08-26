@@ -272,3 +272,243 @@ form.form{background:#fff;border:1px solid var(--line);border-radius:var(--radiu
 .to-top{position:fixed;right:20px;bottom:20px;width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;border:0;display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .25s, transform .25s;z-index:60;box-shadow:var(--shadow)}
 .to-top.show{opacity:1;pointer-events:auto}
 .to-top:hover{background:var(--gold);color:var(--navy);transform:translateY(-3px)}
+
+/* ================================
+   VACANCY POST DESIGN
+================================ */
+
+.vacancy-post {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff;
+  color: #222;
+  font-family: Arial, sans-serif;
+  border: 1px solid #e5e5e5;
+}
+
+
+/* HEADER */
+
+.vacancy-header {
+  text-align: center;
+  padding: 45px 25px;
+  border-bottom: 5px solid #b5121b;
+}
+
+.vacancy-school {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.vacancy-location {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #666;
+}
+
+.vacancy-badge {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 22px;
+  background: #b5121b;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+/* CONTENT SECTIONS */
+
+.vacancy-section {
+  padding: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.vacancy-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #b5121b;
+  border-left: 5px solid #b5121b;
+  padding-left: 12px;
+}
+
+.vacancy-section p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* POSITIONS */
+
+.vacancy-positions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.position-card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  position: relative;
+}
+
+.position-number {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b5121b;
+}
+
+.position-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.position-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+/* REQUIREMENTS */
+
+.requirements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.requirement-item {
+  padding: 15px;
+  background: #f7f7f7;
+  border-left: 4px solid #b5121b;
+  line-height: 1.6;
+}
+
+.requirement-item span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #b5121b;
+}
+
+
+/* INFO CARD */
+
+.vacancy-info-card {
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 6px;
+}
+
+
+/* APPLICATION */
+
+.application-section {
+  background: #fafafa;
+}
+
+.application-list {
+  padding-left: 25px;
+}
+
+.application-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+/* DEADLINE */
+
+.deadline-box {
+  margin: 30px;
+  padding: 25px;
+  text-align: center;
+  background: #b5121b;
+  color: white;
+}
+
+.deadline-box span {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.deadline-box strong {
+  font-size: 24px;
+}
+
+
+/* CONTACT */
+
+.contact-section {
+  text-align: center;
+  padding: 35px 25px;
+}
+
+.contact-section h2 {
+  color: #b5121b;
+}
+
+.contact-section p {
+  margin: 7px 0;
+}
+
+.contact-section hr {
+  max-width: 300px;
+  margin: 25px auto;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+
+/* PDF BUTTON */
+
+.vacancy-download {
+  padding: 30px;
+  text-align: center;
+}
+
+.vacancy-pdf-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.vacancy-pdf-btn:hover {
+  background: #b5121b;
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 650px) {
+
+  .vacancy-school {
+    font-size: 18px;
+  }
+
+  .vacancy-section {
+    padding: 20px;
+  }
+
+  .vacancy-positions {
+    grid-template-columns: 1fr;
+  }
+
+  .deadline-box {
+    margin: 20px;
+  }
+
+  .deadline-box strong {
+    font-size: 19px;
+  }
+
+}
