@@ -200,12 +200,12 @@ window.BSK_STORIES = [
 
     body: "Stefani and Amos Memorial Secondary School, Mabesseneh-Lunsar, is inviting applications from qualified, experienced, visionary, and dedicated education professionals to fill the following leadership positions: 1. PRINCIPAL 2. VICE PRINCIPALS. These positions are critical to providing effective school leadership, promoting academic excellence, strengthening discipline, supporting teachers and students, and ensuring the delivery of quality education. REQUIREMENTS A. PRINCIPAL. Applicants for the position of Principal must: Be a Sierra Leonean, or a non-Sierra Leonean with a valid work permit and willingness to participate in the required recruitment process. Possess a Degree in Education, or a Degree together with a Diploma in Education. For JSS, the minimum qualification is HTC – Secondary. Have at least five (5) years of post-graduation teaching experience, of which at least four (4) years must have been spent serving as a Senior Teacher, Head of Department, or both, in a Government or Government-Assisted secondary school. Demonstrate foundational Information Technology (IT) skills, including the ability to: Use a computer, manage files, operate basic programmes, and access the internet. Use email and maintain an active email address. Type and prepare documents using digital word-processing applications. Create and use spreadsheets, including basic formulas such as addition and subtraction.",
 
-    author: "Admin",
+    author: "Ibrahim Thoronka",
     time: "August 2026",
     read: 0
 
     // Optional PDF download link
-    // pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
+    pdf: "assets/Stefani_Amos_Vacancy_Announcement.pdf"
   }
 
 ];
