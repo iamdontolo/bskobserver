@@ -282,11 +282,10 @@ window.BSK_STORIES = [
 
       </section>
 
-
       <!-- PRINCIPAL REQUIREMENTS -->
       <section class="vacancy-section">
 
-        <h2>A. POSITION: PRINCIPAL</h2>
+        <h2>1. PRINCIPAL</h2>
 
         <div class="requirements-list">
 
@@ -324,11 +323,10 @@ window.BSK_STORIES = [
 
       </section>
 
-
       <!-- VICE PRINCIPAL -->
       <section class="vacancy-section">
 
-        <h2>B. POSITION: VICE PRINCIPAL</h2>
+        <h2>2. VICE PRINCIPAL</h2>
 
         <div class="vacancy-info-card">
 
@@ -348,11 +346,10 @@ window.BSK_STORIES = [
 
       </section>
 
-
       <!-- IT SKILLS -->
       <section class="vacancy-section">
 
-        <h2>INFORMATION TECHNOLOGY REQUIREMENTS</h2>
+        <h3>INFORMATION TECHNOLOGY REQUIREMENTS</h3>
 
         <div class="requirements-list">
 
@@ -380,11 +377,10 @@ window.BSK_STORIES = [
 
       </section>
 
-
       <!-- HOW TO APPLY -->
       <section class="vacancy-section application-section">
 
-        <h2>HOW TO APPLY</h2>
+        <h3>HOW TO APPLY</h3>
 
         <p>
           Interested and qualified applicants should submit the following
@@ -405,7 +401,6 @@ window.BSK_STORIES = [
 
       </section>
 
-
       <!-- DEADLINE -->
       <div class="deadline-box">
 
@@ -419,7 +414,7 @@ window.BSK_STORIES = [
       <!-- CONTACT -->
       <section class="contact-section">
 
-        <h2>FURTHER ENQUIRIES</h2>
+        <h3>FURTHER ENQUIRIES</h3>
 
         <p>
           <strong>Rev. Fr. Mario Zarantonello</strong>
@@ -453,7 +448,6 @@ window.BSK_STORIES = [
 
       </section>
 
-
       <!-- PDF DOWNLOAD -->
       <div class="vacancy-download">
 
@@ -462,7 +456,7 @@ window.BSK_STORIES = [
           target="_blank"
           class="vacancy-pdf-btn"
         >
-          📄 Download Full Job Description PDF
+          📄 Download Job Description Here
         </a>
 
       </div>
